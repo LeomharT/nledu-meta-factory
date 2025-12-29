@@ -1,5 +1,5 @@
-import { Card, type CardProps } from "antd";
-import classes from "./style.module.css";
+import { Card, type CardProps } from 'antd';
+import classes from './style.module.css';
 
 type SectionProps = CardProps & {
   meta: string;
@@ -10,16 +10,12 @@ export default function Section(props: SectionProps) {
     <Card
       {...props}
       styles={{
-        body: {
-          background: "var(--mf-app-section-bg-color)",
-          borderRadius: 8,
+        root: {
+          background: 'var(--mf-app-section-bg-color)',
         },
       }}
     >
-      <Card.Meta
-        title={props.meta}
-        classNames={{ title: classes.title }}
-      ></Card.Meta>
+      <Card.Meta title={props.meta} classNames={{ title: classes.title }}></Card.Meta>
       {props.children}
     </Card>
   );

@@ -21,5 +21,28 @@
     "title": "教授",
     "institution": "智能智造学院",
     "courseHour": 342
-  }
+  },
+  "classes": [
+    {
+      "id": 1,
+      "className": "21级智造1班",
+      "courseName": "数字孪生实践",
+      "unit": 8,
+      "progress": 87
+    },
+    {
+      "id": 2,
+      "className": "21级智造2班",
+      "courseName": "数字孪生实践",
+      "unit": 8,
+      "progress": 87
+    },
+    {
+      "id": 3,
+      "className": "21级智造3班",
+      "courseName": "数字孪生实践",
+      "unit": 8,
+      "progress": 87
+    }
+  ]
 }
