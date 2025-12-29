@@ -37,7 +37,16 @@ export default function Classes() {
               description={item.courseName}
             />
             <div className={classes.progress}>
-              <Progress status='active' strokeColor={twoColors} percent={item.progress} />
+              <Flex justify='space-between'>
+                <Typography.Text type='secondary'>进度</Typography.Text>
+                <Typography.Text type='secondary'>{item.progress}%</Typography.Text>
+              </Flex>
+              <Progress
+                status='active'
+                strokeColor={twoColors}
+                showInfo={false}
+                percent={item.progress}
+              />
             </div>
           </Card>
         ))}

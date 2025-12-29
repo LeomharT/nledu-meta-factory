@@ -2,7 +2,7 @@ import { Card, type CardProps } from 'antd';
 import classes from './style.module.css';
 
 type SectionProps = CardProps & {
-  meta: string;
+  meta?: string;
 };
 
 export default function Section(props: SectionProps) {

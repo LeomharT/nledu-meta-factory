@@ -1,6 +1,6 @@
-import { App, ConfigProvider, Layout, theme } from "antd";
-import AppContent from "./AppContent";
-import AppHeader from "./AppHeader";
+import { App, ConfigProvider, Layout, theme } from 'antd';
+import AppContent from './AppContent';
+import AppHeader from './AppHeader';
 export default function AppShell() {
   return (
     <ConfigProvider theme={{ algorithm: theme.darkAlgorithm }}>

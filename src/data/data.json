@@ -28,21 +28,33 @@
       "className": "21级智造1班",
       "courseName": "数字孪生实践",
       "unit": 8,
-      "progress": 87
+      "progress": 0
     },
     {
       "id": 2,
       "className": "21级智造2班",
       "courseName": "数字孪生实践",
       "unit": 8,
-      "progress": 87
+      "progress": 0
     },
     {
       "id": 3,
       "className": "21级智造3班",
       "courseName": "数字孪生实践",
       "unit": 8,
-      "progress": 87
+      "progress": 0
     }
+  ],
+  "courses": [
+    { "key": "machining", "courseName": "机械加工", "icon": "machining" },
+    {
+      "key": "automobileManufacturing",
+      "courseName": "汽车制造",
+      "icon": "automobileManufacturing"
+    },
+    { "key": "chemicalProduction", "courseName": "化工生产", "icon": "chemicalProduction" },
+    { "key": "rareEarthSmelting", "courseName": "稀土冶炼", "icon": "rareEarthSmelting" },
+    { "key": "thermalProduction", "courseName": "热力生产", "icon": "thermalProduction" },
+    { "key": "environmentalEnergy", "courseName": "环保能源", "icon": "environmentalEnergy" }
   ]
 }
