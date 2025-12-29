@@ -15,5 +15,11 @@
       "label": "虚拟仿真业务系统",
       "status": 3
     }
-  ]
+  ],
+  "instructor": {
+    "name": "王教授",
+    "title": "教授",
+    "institution": "智能智造学院",
+    "courseHour": 342
+  }
 }

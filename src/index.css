@@ -3,4 +3,6 @@
 :root {
   --mf-app-header-height: 100px;
   --mf-app-text-color: #4ecae8;
+  --mf-app-bg-color: #090c16;
+  --mf-app-section-bg-color: #101523;
 }

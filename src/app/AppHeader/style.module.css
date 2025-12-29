@@ -2,7 +2,7 @@
   width: 100%;
   height: var(--mf-app-header-height);
   border-bottom: 1px solid var(--ant-color-border-secondary);
-  background-color: #101523;
+  background-color: var(--mf-app-section-bg-color);
   display: flex;
   flex-flow: row nowrap;
   align-items: center;

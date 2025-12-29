@@ -19,7 +19,7 @@ export default function AppHeader() {
   return (
     <Layout.Header className={classes.header}>
       <Flex align="center" gap={12}>
-        <Image preview={false} src="/meta-factory-icon.png" />
+        <Image preview={false} draggable={false} src="/meta-factory-icon.png" />
         <Space orientation="vertical" size={0}>
           <Typography.Title level={3}>MetaFactory</Typography.Title>
           <Typography>数字孪生实验工厂</Typography>

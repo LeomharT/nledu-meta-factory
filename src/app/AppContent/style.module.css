@@ -1,3 +1,37 @@
 .content {
   height: calc(100dvh - var(--mf-app-header-height));
+  display: flex;
+  padding: 16px;
+  background-color: var(--mf-app-bg-color);
+  gap: 16px;
+}
+
+.left {
+  height: 100%;
+  flex: 2 1 0;
+  order: 1;
+}
+
+.middle {
+  height: 100%;
+  flex: 3 1 0;
+  order: 2;
+}
+
+.right {
+  height: 100%;
+  flex: 2 1 0;
+  order: 3;
+}
+
+@media screen and (max-width: 1200px) {
+  .content {
+    flex-flow: column nowrap;
+  }
+  .left {
+    order: 2;
+  }
+  .middle {
+    order: 1;
+  }
 }
