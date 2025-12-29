@@ -1,0 +1,19 @@
+{
+  "onlineStatus": [
+    {
+      "id": 1,
+      "label": "工业数据模拟引擎",
+      "status": 1
+    },
+    {
+      "id": 2,
+      "label": "数字孪生开发平台",
+      "status": 1
+    },
+    {
+      "id": 3,
+      "label": "虚拟仿真业务系统",
+      "status": 3
+    }
+  ]
+}

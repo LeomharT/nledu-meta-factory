@@ -1,0 +1,43 @@
+.header {
+  width: 100%;
+  height: var(--mf-app-header-height);
+  border-bottom: 1px solid var(--ant-color-border-secondary);
+  background-color: #101523;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+
+  & h3 {
+    margin: 0;
+    font-size: 28px;
+  }
+
+  & h5 {
+    margin: 0;
+  }
+
+  & article {
+    letter-spacing: 4px;
+    font-size: 16px;
+    color: var(--mf-app-text-color);
+  }
+}
+
+.right {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  flex-flow: row nowrap;
+  gap: 12px;
+}
+
+.divider {
+  height: 60px;
+  width: 1px;
+  background-color: #232b3d;
+}
+
+.time {
+  color: #d0f8fd !important;
+}

@@ -1,0 +1,6 @@
+@import url("antd/dist/reset.css");
+
+:root {
+  --mf-app-header-height: 100px;
+  --mf-app-text-color: #4ecae8;
+}
