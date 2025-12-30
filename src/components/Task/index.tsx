@@ -50,7 +50,7 @@ export default function Task() {
                 <Flex justify='space-between'>
                   <Typography>{item.className}</Typography>
                   <Tag
-                    color={'processing'}
+                    color={'warning'}
                     variant='outlined'
                     styles={{ root: { fontWeight: 'lighter' } }}
                   >
@@ -74,13 +74,17 @@ export default function Task() {
             <Flex justify='space-between' gap={16}>
               <Card styles={cardStyle}>
                 <Space vertical size={0}>
-                  <Typography.Text type='success'>{item.qualify}</Typography.Text>
+                  <Typography.Text strong type='success'>
+                    {item.qualify}
+                  </Typography.Text>
                   <Typography.Text type='secondary'>合格</Typography.Text>
                 </Space>
               </Card>
               <Card styles={cardStyle}>
                 <Space vertical size={0}>
-                  <Typography.Text type='danger'>{item.disqualify}</Typography.Text>
+                  <Typography.Text strong type='danger'>
+                    {item.disqualify}
+                  </Typography.Text>
                   <Typography.Text type='secondary'>不合格</Typography.Text>
                 </Space>
               </Card>
