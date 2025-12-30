@@ -5,7 +5,6 @@ type TabButtonProps = ButtonProps & {
 };
 
 export default function TabButton(props: TabButtonProps) {
-  console.log(props.selected);
   return (
     <Button
       {...props}
@@ -16,6 +15,10 @@ export default function TabButton(props: TabButtonProps) {
         },
         content: {
           color: props.selected ? '#ffffff' : '#5B697E',
+        },
+        icon: {
+          color: props.selected ? '#ffffff' : '#5B697E',
+          fill: props.selected ? '#ffffff' : '#5B697E',
         },
       }}
     ></Button>

@@ -1,9 +1,9 @@
 .content {
   height: calc(100dvh - var(--mf-app-header-height));
   display: flex;
-  padding: 16px;
+  padding: 24px;
   background-color: var(--mf-app-bg-color);
-  gap: 16px;
+  gap: 24px;
 }
 .left,
 .middle,

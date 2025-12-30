@@ -11,6 +11,8 @@
   },
   "dependencies": {
     "@ant-design/icons": "^6.1.0",
+    "@tabler/icons": "^3.36.0",
+    "@tabler/icons-react": "^3.36.0",
     "antd": "^6.1.2",
     "react": "^19.2.0",
     "react-dom": "^19.2.0"

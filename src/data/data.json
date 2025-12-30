@@ -46,15 +46,41 @@
     }
   ],
   "courses": [
-    { "key": "machining", "courseName": "机械加工", "icon": "machining" },
+    {
+      "key": "machining",
+      "courseName": "机械加工",
+      "icon": "machining",
+      "categories": ["设备认知", "工厂漫游", "系统实践(MES系统)"]
+    },
     {
       "key": "automobileManufacturing",
       "courseName": "汽车制造",
-      "icon": "automobileManufacturing"
+      "icon": "automobileManufacturing",
+      "categories": ["设备认知", "工厂漫游", "系统实践(MES系统)"]
     },
-    { "key": "chemicalProduction", "courseName": "化工生产", "icon": "chemicalProduction" },
-    { "key": "rareEarthSmelting", "courseName": "稀土冶炼", "icon": "rareEarthSmelting" },
-    { "key": "thermalProduction", "courseName": "热力生产", "icon": "thermalProduction" },
-    { "key": "environmentalEnergy", "courseName": "环保能源", "icon": "environmentalEnergy" }
+    {
+      "key": "chemicalProduction",
+      "courseName": "化工生产",
+      "icon": "chemicalProduction",
+      "categories": ["设备认知", "工厂漫游", "系统实践(MES系统)"]
+    },
+    {
+      "key": "rareEarthSmelting",
+      "courseName": "稀土冶炼",
+      "icon": "rareEarthSmelting",
+      "categories": ["设备认知", "工厂漫游", "系统实践(MES系统)"]
+    },
+    {
+      "key": "thermalProduction",
+      "courseName": "热力生产",
+      "icon": "thermalProduction",
+      "categories": ["设备认知", "工厂漫游", "系统实践(MES系统)"]
+    },
+    {
+      "key": "environmentalEnergy",
+      "courseName": "环保能源",
+      "icon": "environmentalEnergy",
+      "categories": ["设备认知", "工厂漫游", "系统实践(MES系统)"]
+    }
   ]
 }

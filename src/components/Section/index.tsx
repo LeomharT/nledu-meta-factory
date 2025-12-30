@@ -13,6 +13,7 @@ export default function Section(props: SectionProps) {
         root: {
           background: 'var(--mf-app-section-bg-color)',
         },
+        ...props.styles,
       }}
     >
       <Card.Meta title={props.meta} classNames={{ title: classes.title }}></Card.Meta>
