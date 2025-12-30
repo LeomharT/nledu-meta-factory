@@ -7,3 +7,13 @@
   font-weight: bold;
   font-size: 18px;
 }
+
+@media screen and (max-width: 1200px) {
+  .btn {
+    width: calc(100% - 8px) !important;
+    height: 80px;
+    position: fixed;
+    bottom: 12px;
+    left: 4px;
+  }
+}

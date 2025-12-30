@@ -31,6 +31,7 @@
 
 @media screen and (max-width: 1200px) {
   .content {
+    padding: 4px;
     height: 100%;
     flex-flow: column nowrap;
   }
@@ -39,5 +40,8 @@
   }
   .middle {
     order: 1;
+  }
+  .right {
+    padding-block-end: 104px;
   }
 }

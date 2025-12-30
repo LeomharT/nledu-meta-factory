@@ -1,6 +1,6 @@
 import Icon, { GoldOutlined } from '@ant-design/icons';
 import { IconBuildingFactory, IconCar, IconFlask, IconTrees } from '@tabler/icons-react';
-import { Button, Flex, Space, Typography } from 'antd';
+import { Button, Flex, Grid, Space, Typography } from 'antd';
 import { useState, type ReactNode } from 'react';
 import data from '../../data/data.json';
 import Section from '../Section';
@@ -17,6 +17,8 @@ const icons: Record<string, ReactNode> = {
 };
 
 export default function Courses() {
+  const breakPoints = Grid.useBreakpoint();
+
   const [list] = useState(data.courses);
 
   const [selected, setSelected] = useState(list[0]);
@@ -55,7 +57,7 @@ export default function Courses() {
             <Button type='text' className={classes.btn} shape='round' icon={icons[selected.key]} />
             <Typography.Title>{selected.courseName}</Typography.Title>
           </Space>
-          <Space size='middle' wrap>
+          <Space size={breakPoints.lg ? 24 : 4}>
             {selected.categories.map((item, index) => (
               <TabButton key={index} selected={active === index} onClick={() => setActive(index)}>
                 {item}
