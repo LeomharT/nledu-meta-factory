@@ -1,0 +1,9 @@
+.btn {
+  --ant-btn-text-color-hover: #ffffff !important;
+  height: 120px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #3ba5cf, #256adf) !important;
+
+  font-weight: bold;
+  font-size: 18px;
+}
