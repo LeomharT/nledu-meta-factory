@@ -82,5 +82,32 @@
       "icon": "environmentalEnergy",
       "categories": ["设备认知", "工厂漫游", "系统实践(MES系统)"]
     }
+  ],
+  "students": [
+    { "id": 1, "className": "21级智造1班", "students": 48 },
+    { "id": 2, "className": "21级智造2班", "students": 48 },
+    { "id": 3, "className": "21级智造3班", "students": 48 }
+  ],
+  "task": [
+    {
+      "id": 1,
+      "className": "21级智造1班",
+      "taskName": "MES生产调度实验",
+      "progress": 0,
+      "status": 1,
+      "qualify": 48,
+      "disqualify": 4,
+      "endtime": "2025/12/29 11:12"
+    },
+    {
+      "id": 2,
+      "className": "21级智造2班",
+      "taskName": "MES生产调度实验",
+      "progress": 0,
+      "status": 1,
+      "qualify": 38,
+      "disqualify": 5,
+      "endtime": "2025/12/29 11:12"
+    }
   ]
 }

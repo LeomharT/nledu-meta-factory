@@ -1,7 +1,10 @@
 import { Layout } from 'antd';
 import Classes from '../../components/Classes';
 import Courses from '../../components/Courses';
+import EnterBtn from '../../components/EnterBtn';
 import Instructor from '../../components/Instructor';
+import Students from '../../components/Students';
+import Task from '../../components/Task';
 import classes from './style.module.css';
 
 export default function AppContent() {
@@ -14,7 +17,11 @@ export default function AppContent() {
       <div className={classes.middle}>
         <Courses />
       </div>
-      <div className={classes.right}>3</div>
+      <div className={classes.right}>
+        <Students />
+        <Task />
+        <EnterBtn />
+      </div>
     </Layout.Content>
   );
 }

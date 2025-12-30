@@ -55,7 +55,7 @@ export default function Courses() {
             <Button type='text' className={classes.btn} shape='round' icon={icons[selected.key]} />
             <Typography.Title>{selected.courseName}</Typography.Title>
           </Space>
-          <Space size='large' wrap>
+          <Space size='middle' wrap>
             {selected.categories.map((item, index) => (
               <TabButton key={index} selected={active === index} onClick={() => setActive(index)}>
                 {item}
