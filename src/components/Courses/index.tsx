@@ -59,8 +59,15 @@ export default function Courses() {
           </Space>
           <Space size={breakPoints.lg ? 24 : 4}>
             {selected.categories.map((item, index) => (
-              <TabButton key={index} selected={active === index} onClick={() => setActive(index)}>
-                {item}
+              <TabButton
+                key={index}
+                selected={active === index}
+                onClick={() => {
+                  setActive(index);
+                  if (item.url) window.open(item.url);
+                }}
+              >
+                {item.label}
               </TabButton>
             ))}
           </Space>
