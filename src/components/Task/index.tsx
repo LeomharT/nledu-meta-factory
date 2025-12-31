@@ -9,7 +9,7 @@ import {
   type ProgressProps,
 } from 'antd';
 import { useEffect, useState } from 'react';
-import data from '../../data/data.json';
+import data from '../../data/data.ts';
 import Section from '../Section';
 import classes from './style.module.css';
 

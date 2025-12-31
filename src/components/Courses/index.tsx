@@ -2,7 +2,7 @@ import Icon, { GoldOutlined } from '@ant-design/icons';
 import { IconBuildingFactory, IconCar, IconFlask, IconTrees } from '@tabler/icons-react';
 import { Button, Flex, Grid, Space, Typography } from 'antd';
 import { useState, type ReactNode } from 'react';
-import data from '../../data/data.json';
+import data from '../../data/data.ts';
 import Section from '../Section';
 import TabButton from '../TabButton';
 import classes from './style.module.css';

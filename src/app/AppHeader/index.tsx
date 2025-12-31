@@ -1,7 +1,7 @@
 import { UserOutlined } from '@ant-design/icons';
 import { Avatar, Badge, Flex, Grid, Layout, Space, Typography } from 'antd';
 import { useEffect, useState } from 'react';
-import data from '../../data/data.json';
+import data from '../../data/data.ts';
 import classes from './style.module.css';
 
 export default function AppHeader() {

@@ -1,6 +1,6 @@
 import { ArrowRightOutlined } from '@ant-design/icons';
 import { Button } from 'antd';
-import data from '../../data/data.json';
+import data from '../../data/data.ts';
 import classes from './style.module.css';
 
 export default function EnterBtn() {

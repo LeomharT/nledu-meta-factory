@@ -1,0 +1,138 @@
+let data = {
+  enterLink: 'https://www.baidu.com',
+  onlineStatus: [
+    {
+      id: 1,
+      label: '工业数据模拟引擎',
+      status: 1,
+    },
+    {
+      id: 2,
+      label: '数字孪生开发平台',
+      status: 1,
+    },
+    {
+      id: 3,
+      label: '虚拟仿真业务系统',
+      status: 3,
+    },
+  ],
+  instructor: {
+    name: '王教授',
+    title: '教授',
+    institution: '智能智造学院',
+    courseHour: 342,
+  },
+  classes: [
+    {
+      id: 1,
+      className: '21级智造1班',
+      courseName: '数字孪生实践',
+      unit: 8,
+      progress: 0,
+    },
+    {
+      id: 2,
+      className: '21级智造2班',
+      courseName: '数字孪生实践',
+      unit: 8,
+      progress: 0,
+    },
+    {
+      id: 3,
+      className: '21级智造3班',
+      courseName: '数字孪生实践',
+      unit: 8,
+      progress: 0,
+    },
+  ],
+  courses: [
+    {
+      key: 'machining',
+      courseName: '机械加工',
+      categories: [
+        { label: '设备认知', url: 'https://www.baidu.com' },
+        { label: '工厂漫游', url: 'https://www.baidu.com' },
+        { label: '系统实践(MES系统)', url: 'https://www.baidu.com' },
+      ],
+    },
+    {
+      key: 'automobileManufacturing',
+      courseName: '汽车制造',
+      categories: [
+        { label: '设备认知', url: 'https://www.baidu.com' },
+        { label: '工厂漫游', url: 'https://www.baidu.com' },
+        { label: '系统实践(MES系统)', url: 'https://www.baidu.com' },
+      ],
+    },
+    {
+      key: 'chemicalProduction',
+      courseName: '化工生产',
+      categories: [
+        { label: '设备认知', url: 'https://www.baidu.com' },
+        { label: '工厂漫游', url: 'https://www.baidu.com' },
+        { label: '系统实践(MES系统)', url: 'https://www.baidu.com' },
+      ],
+    },
+    {
+      key: 'rareEarthSmelting',
+      courseName: '稀土冶炼',
+      categories: [
+        { label: '设备认知', url: 'https://www.baidu.com' },
+        { label: '工厂漫游', url: 'https://www.baidu.com' },
+        { label: '系统实践(MES系统)', url: 'https://www.baidu.com' },
+      ],
+    },
+    {
+      key: 'thermalProduction',
+      courseName: '热力生产',
+      categories: [
+        { label: '设备认知', url: 'https://www.baidu.com' },
+        { label: '工厂漫游', url: 'https://www.baidu.com' },
+        { label: '系统实践(MES系统)', url: 'https://www.baidu.com' },
+      ],
+    },
+    {
+      key: 'environmentalEnergy',
+      courseName: '环保能源',
+      categories: [
+        { label: '设备认知', url: 'https://www.baidu.com' },
+        { label: '工厂漫游', url: 'https://www.baidu.com' },
+        { label: '系统实践(MES系统)', url: 'https://www.baidu.com' },
+      ],
+    },
+  ],
+  students: [
+    { id: 1, className: '21级智造1班', students: 48 },
+    { id: 2, className: '21级智造2班', students: 48 },
+    { id: 3, className: '21级智造3班', students: 48 },
+  ],
+  task: [
+    {
+      id: 1,
+      className: '21级智造1班',
+      taskName: 'MES生产调度实验',
+      progress: 0,
+      status: 1,
+      qualify: 48,
+      disqualify: 4,
+      endtime: '2025/12/29 11:12',
+    },
+    {
+      id: 2,
+      className: '21级智造2班',
+      taskName: 'MES生产调度实验',
+      progress: 0,
+      status: 1,
+      qualify: 38,
+      disqualify: 5,
+      endtime: '2025/12/29 11:12',
+    },
+  ],
+};
+
+if ((window as unknown as { __CONFIG__: typeof data }).__CONFIG__) {
+  data = (window as unknown as { __CONFIG__: typeof data }).__CONFIG__;
+}
+
+export default data;

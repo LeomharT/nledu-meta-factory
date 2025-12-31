@@ -1,6 +1,6 @@
 import { UserOutlined } from '@ant-design/icons';
 import { Avatar, Flex, Space, Typography } from 'antd';
-import data from '../../data/data.json';
+import data from '../../data/data.ts';
 import Section from '../Section';
 import classes from './style.module.css';
 
